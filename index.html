@@ -4,12 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400&display=swap" rel="stylesheet">
+    <!--mi esilo-->
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Blog-Barbershop</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header_logo"></div>
-        <img src="" alt="">
+    <!---Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt="logo-blog"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Horas</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+    <header class="main">
+        <div class="main__container">
+            <div class="row">
+                <div col-xs-6 col-md-6>
+                    <h1 class="main__container__tituloblog">5 formas de cuidar tu corte de cabello</h1>
+                    <img class="main__container__img" src="assets/img/post-image.jpg" alt="foto-post">
+                </div>
+            </div>
+        </div>
     </header>
+
+    <section class="article">
+        <p class="article__parrafo1">12 de abril de 2018</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempore magnam, totam delectus repellat omnis ad maxime 
+            autem similique aliquid voluptatem praesentium eligendi, 
+            explicabo facere illum sequi pariatur quae sint ipsam?</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempore magnam, totam delectus repellat omnis ad maxime 
+                autem similique aliquid voluptatem praesentium eligendi, 
+                explicabo facere illum sequi pariatur quae sint ipsam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempore magnam, totam delectus repellat omnis ad maxime 
+                autem similique aliquid voluptatem praesentium eligendi, 
+                explicabo facere illum sequi pariatur quae sint ipsam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempore magnam, totam delectus repellat omnis ad maxime 
+                autem similique aliquid voluptatem praesentium eligendi, 
+                explicabo facere illum sequi pariatur quae sint ipsam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempore magnam, totam delectus repellat omnis ad maxime 
+                autem similique aliquid voluptatem praesentium eligendi, 
+                explicabo facere illum sequi pariatur quae sint ipsam?</p>
+
+        <div class="botones"></div>
+        <button class="botones__comparte__btn">compartir</button>
+        <button class="boton__comenta__btn">Comentar en Twitter</button>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-6">
+                <div class="container__bloguera">
+                    <img class="container__bloguera__img" src="assets/img/naomi-thai.png" alt="">
+                    <h3 class="container__bloguera__nombre">Naomi Thai</h3>
+                    <p class="container__bloguera__rrss">@Naothai</p>
+                    <p class="container__bloguera__web">depelos.com</p>
+                    <p class="container__bloguera__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores delectus a commodi autem voluptatum blanditiis obcaecati dolore, dignissimos illo error.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Paginación-->
+    <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Siguiente</a>
+              </li>
+            </ul>
+          </nav>
+    <footer class="final">
+        <img class="final__logo" src="assets/img/logo.png" alt="logo-blog">
+    </footer>
 </body>
 </html>
