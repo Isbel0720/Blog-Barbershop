@@ -1,11 +1,21 @@
+.header{
+    margin: 0;
+    padding: 0;
+}
+
 .main{
-    padding-top: 20px;
-    padding-bottom: 20px; 
-    padding-left: 20px;
+    color: $white;
+    font-weight: $negro;
+   margin-bottom: auto;
+   margin-right: auto;
 }
 
-.main__container__img{
-height: 100vh;
-size: 30px;
+.main__container{
+background: url('../img/post-image.jpg') no-repeat;
+background-size: 100%;
+min-height: 400px;
 }
 
+.main__container__title{
+padding-top: 100px;
+}
